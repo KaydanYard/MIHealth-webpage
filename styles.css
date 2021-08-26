@@ -1,0 +1,127 @@
+body {
+	height: 1000px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-container {
+	display: flex;
+	font-size: 2em;
+  margin-left: 1em;
+}
+
+.logo1 {
+	color: #c43429;
+}
+
+.logo2 {
+	color: #7bd13d;
+}
+
+.navigation-bar {
+	margin: 1.5em;
+	display: flex;
+	justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigation-bar a {
+	margin: 10px;
+	text-decoration: none;
+	color: #454545;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	transition: 0.2s ease-in-out;
+}
+
+.navigation-bar a:hover {
+	color: black;
+	border-bottom: 3px solid #7bd13d;
+}
+
+.content {
+	display: flex;
+	background-image: url("images/double-bubble-outline.png");
+	background-color: #e3e3e3;
+	margin: -10px;
+	margin-top: 10px;
+}
+
+.description {
+	margin-left: 5px;
+	width: 20em;
+  padding: 1.5em;
+  font-size: 1.8em;
+}
+
+.menu-link {
+	color: #454545;
+	text-decoration: none;
+	border: 3px transparent;
+	border-radius: 3px;
+	transition: 0.2s ease-in-out;
+}
+
+.menu-link:hover {
+	border-bottom: 3px solid #7bd13d;
+}
+
+img {
+	max-width: 20em;
+	object-fit: cover;
+	border: 2px solid #dadfea;
+	border-radius: 5px;
+}
+
+.posters {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+	width: auto;
+	border: 1px solid transparent;
+  padding: 1.5em;
+}
+
+.shrimpBowl {
+	height: 30em;
+}
+
+.tag-wrapper {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin-top: -5.1em;
+	margin-left: auto;
+  margin-right: auto;
+	width: 30px;
+}
+
+.poster-tag1 {
+	margin: auto;
+	margin-left: -0.7em;
+	position: absolute;
+	width: 5em;
+	text-align: right;
+	top: -2.4em;
+	left: 2em;
+	bottom: -1px;
+	background-color: #f0f0f0;
+	padding: 0.5em;
+	font-size: 1.5em;
+}
+
+.poster-tag2 {
+	position: absolute;
+	margin: auto;
+	margin-left: -3.5em;
+	text-align: right;
+	width: 6em;
+	left: 2em;
+  background-color: #7bd13d;
+	padding: 0.5em;
+	font-size: 2em;
+}
